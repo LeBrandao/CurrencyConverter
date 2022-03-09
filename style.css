@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Helvetica;
+}
+body {
+  background-image: url(./img/money.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+  background-color: #000;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  max-width: 1070px;
+} 
+
+.header {
+  margin: 5rem;
+}
+
+.header h1{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.valorDolar, .valorEuro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+button {
+  color: #000;
+  height: 2rem;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  color: #000;
+  width: 200px;
+  height: 2rem;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.result {
+  margin: 4rem 0;
+}
+
+.result h2 {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./scripts.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Conversor de Moedas</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Conversor de Moedas</h1>
+      <p>Descubra os valores convertidos em Real R$</p>
+    </header>
+
+    <section class="content">
+
+      <p>Insira o valor em Dólar</p>
+      <div class="valorDolar">
+        <div class="input">
+          <input type="number" id="dolar">
+        </div>
+        <div class="button">
+          <button class="buttonConvert" type="submit" onclick="ConverterDolar()">Converter</button>
+        </div>
+      </div>
+
+      <p>Insira o valor em Euro</p>
+      <div class="valorEuro">
+        <div class="input">
+          <input type="number" id="euro">
+        </div>
+        <div class="button">
+          <button class="buttonEuro" type="submit" onclick="ConverterEuro()">Converter</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="result">
+      <h2 id="resultDolar"></h2>
+      <h2 id="resultEuro"></h2>
+    </section>
+  </div>
+</body>
+
+</html>
